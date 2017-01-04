@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Add-AzureRmSqlDatabase.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGEnvironmentName "Subscription" -AzureRGTenantName "Common" -AzureSQLServerName "sassubscription1" -AzureDBName "AuthTokenStore" -Verbose

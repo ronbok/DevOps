@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Delete-Tenant", "Delete-Tenant\Delete-Tenant.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{532408D9-2B9D-4CA8-867F-C8CCBAB1CE07}"
+	ProjectSection(SolutionItems) = preProject
+		Delete-Tenant\Delete-Tenant-BlueMetalHealthcare-Development.bat = Delete-Tenant\Delete-Tenant-BlueMetalHealthcare-Development.bat
+		Delete-Tenant\Delete-Tenant-BlueMetalHealthcare-Test.bat = Delete-Tenant\Delete-Tenant-BlueMetalHealthcare-Test.bat
+		Delete-Tenant\Delete-Tenant-CapeCodHealthcare-Development.bat = Delete-Tenant\Delete-Tenant-CapeCodHealthcare-Development.bat
+		Delete-Tenant\Delete-Tenant-StewardHealthcare-Backup-Development.bat = Delete-Tenant\Delete-Tenant-StewardHealthcare-Backup-Development.bat
+		Delete-Tenant\Delete-Tenant-StewardHealthcare-Development.bat = Delete-Tenant\Delete-Tenant-StewardHealthcare-Development.bat
+		Delete-Tenant\Delete-Tenant-StewardHealthcare-Production.bat = Delete-Tenant\Delete-Tenant-StewardHealthcare-Production.bat
+		Delete-Tenant\Delete-Tenant-StewardHealthcare-Stage.bat = Delete-Tenant\Delete-Tenant-StewardHealthcare-Stage.bat
+		Delete-Tenant\Delete-Tenant-StewardHealthcare-Test.bat = Delete-Tenant\Delete-Tenant-StewardHealthcare-Test.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetPackageGrabber", "NuGetPackageGrabber\NuGetPackageGrabber.csproj", "{6A0AC9B3-EF67-4373-8100-A4D5D4DEAD25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0AC9B3-EF67-4373-8100-A4D5D4DEAD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0AC9B3-EF67-4373-8100-A4D5D4DEAD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0AC9B3-EF67-4373-8100-A4D5D4DEAD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0AC9B3-EF67-4373-8100-A4D5D4DEAD25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

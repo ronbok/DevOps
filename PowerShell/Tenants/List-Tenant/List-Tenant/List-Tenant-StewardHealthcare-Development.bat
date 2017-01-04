@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file List-Tenant.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Subscription_Common" -AzureSAName "sassubcom1" -TableName "TMDevelopment" -TenantDomain "steward.org" -Verbose

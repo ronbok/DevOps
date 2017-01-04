@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Create-AzureRMStorageAccount.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Production_Common,Production_Common,Production_Common,Production_Common" -AzureSAName "saspcs1,saspcs2,saspcp1,saspcp2" -AzureSAType "Standard_GRS,Standard_GRS,Premium_LRS,Premium_LRS" -Verbose

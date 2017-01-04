@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Enable-AppSuiteBitlockerTest.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Test_Common" -AzureKeyVaultName "sastcs" -VMName "SSAS-TST01" -Verbose

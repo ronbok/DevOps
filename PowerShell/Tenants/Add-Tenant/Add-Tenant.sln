@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Add-Tenant", "Add-Tenant\Add-Tenant.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C73B6069-94FC-43BB-9FF5-8EE6E8087B3E}"
+	ProjectSection(SolutionItems) = preProject
+		Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development-SSAS-DEV01.bat = Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development-SSAS-DEV01.bat
+		Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development-SSAS-DEV02.bat = Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development-SSAS-DEV02.bat
+		Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development.bat = Add-Tenant\Add-Tenant-BlueMetalHealthcare-Development.bat
+		Add-Tenant\Add-Tenant-BlueMetalHealthcare-Test.bat = Add-Tenant\Add-Tenant-BlueMetalHealthcare-Test.bat
+		Add-Tenant\Add-Tenant-CapeCodHealthcare-Development.bat = Add-Tenant\Add-Tenant-CapeCodHealthcare-Development.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Development-SSAS-DEV01.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Development-SSAS-DEV01.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Development-SSAS-DEV02.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Development-SSAS-DEV02.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Development.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Development.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Production.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Production.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Stage-SSAS-STG01.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Stage-SSAS-STG01.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Stage-SSAS-STG02.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Stage-SSAS-STG02.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Stage.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Stage.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Test-SSAS-TST01.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Test-SSAS-TST01.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Test-SSAS-TST02.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Test-SSAS-TST02.bat
+		Add-Tenant\Add-Tenant-StewardHealthcare-Test.bat = Add-Tenant\Add-Tenant-StewardHealthcare-Test.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetPackageGrabber", "NuGetPackageGrabber\NuGetPackageGrabber.csproj", "{53C0A7BE-298E-4E6A-BD20-C934DCC77DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C0A7BE-298E-4E6A-BD20-C934DCC77DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C0A7BE-298E-4E6A-BD20-C934DCC77DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C0A7BE-298E-4E6A-BD20-C934DCC77DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C0A7BE-298E-4E6A-BD20-C934DCC77DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

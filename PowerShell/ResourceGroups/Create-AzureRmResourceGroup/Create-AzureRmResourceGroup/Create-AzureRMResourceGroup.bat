@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Create-AzureRMResourceGroup.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGEnvironmentName "Development,Test,Stage,Production,Subscription" -AzureRGTenantName "Common,Common,Common,Common,Common" -Verbose

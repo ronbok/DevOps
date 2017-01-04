@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Delete-AzureRMStorageAccount.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Production_Common,Production_Common,Production_Common,Production_Common" -AzureSAName "saspcs1,saspcs2,saspcp1,saspcp2" -Verbose

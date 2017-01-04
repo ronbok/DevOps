@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Create-AzureRmVM-DRBT.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGEnvironmentName "Test" -AzureRGTenantName "Common" -VNetName "AppSuite" -VMName "DRBT-P-TST02" -PrivateIPAddress "10.125.129.102" -VMSize "Standard_D12" -AzureSAName "sastcs" -AzureSAType "Standard_GRS" -Verbose

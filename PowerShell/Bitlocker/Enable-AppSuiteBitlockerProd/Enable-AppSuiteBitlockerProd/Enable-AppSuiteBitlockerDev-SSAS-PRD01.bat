@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Enable-AppSuiteBitlockerProd.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Production_Common" -AzureKeyVaultName "saspcs" -VMName "SSAS-PRD01" -Verbose

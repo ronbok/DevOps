@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Create-AzureRmVM-SSAS.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGEnvironmentName "Development" -AzureRGTenantName "Common" -VNetName "AppSuite" -VMName "SSAS-DEV02" -PrivateIPAddress "10.125.128.133" -VMSize "Standard_A3" -AzureSAName "sasdcs" -AzureSAType "Standard_GRS" -Verbose

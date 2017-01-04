@@ -1,0 +1,2 @@
+cmdkey /add:sassubcom1.file.core.windows.net /user:sassubcom1 /pass:GBXKZuCYU42N6ECkxuP5XTRw5DNRjYEIqnLrRa3JJiGWP1nit13meV+dwflFpJa89111wq4NztnR7HuFdDqZDg==
+net use z: \\sassubcom1.file.core.windows.net\software

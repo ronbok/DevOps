@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -file Delete-AzureRMKeyVault.ps1 -Subscription "AppSuite" -AzureRegion "East US 2" -AzureRGName "Development_Common,Test_Common,Stage_Common,Production_Common" -AzureKeyVaultName "sasdcs,sastcs,sasscs,saspcs" -Verbose
